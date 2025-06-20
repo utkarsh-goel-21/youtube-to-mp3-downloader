@@ -1,66 +1,55 @@
-# YouTube to MP3 Downloader 🎧
+# YouTube to MP3 Downloader 🎵
 
-This is a simple Python-based project that allows you to download audio from YouTube videos and save it as MP3 files.
+A simple Python tool that allows you to download YouTube videos as MP3 audio files through a graphical interface.
 
-It uses the `yt-dlp` library to fetch the video and `ffmpeg` to convert the audio to MP3 format.
+## 🔧 Features
 
----
+- Download high-quality MP3 audio from any YouTube video
+- Easy-to-use GUI built with Tkinter
+- Converts video to 192 kbps MP3 using `yt_dlp` and `ffmpeg`
 
-## How it works
+## 🖥️ Requirements
 
-1. You enter a YouTube video URL.
-2. The script downloads the best quality audio available.
-3. It then converts the downloaded audio to MP3 using ffmpeg.
+- Python 3.7+
+- `yt-dlp`
+- `ffmpeg`
+- `tkinter` (comes pre-installed with Python on most systems)
 
----
+## 💻 How to Run
 
-## Why I built this
+1. **Clone this repository:**
 
-I built this tool to download **copyright-free music** and for personal learning.
+   ```bash
+   git clone https://github.com/utkarsh-goel-21/youtube-to-mp3-downloader.git
+   cd youtube-to-mp3-downloader
 
----
+   ```
 
-## Requirements
+2. **Install required packages:**
 
-- Python 3.7 or higher
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp)
-- [ffmpeg](https://ffmpeg.org/download.html) (must be installed and added to your system PATH)
+   pip install -r requirements.txt
 
-To install the required Python library, run: pip install yt-dlp
+3. **Set up FFmpeg:**
 
----
+   Download FFmpeg from: https://www.gyan.dev/ffmpeg
+   Extract it and note the path to ffmpeg.exe
+   Set an environment variable in the terminal:
 
-## Usage
+   set FFMPEG_PATH=C:\Path\To\ffmpeg.exe
 
-1. Clone this repository or download the code files.
-2. Open a terminal in the project folder.
-3. Run the script:
-4. Paste the YouTube video link when prompted.
-5. The audio will be downloaded and saved as an MP3 file in the same folder.
+4. **Run the application:**
 
----
+   python main.py
 
-## File structure
+## ⚠️ Disclaimer
 
-Youtube_to_mp3/
-├── main.py
-├── README.md
-└── \*.mp3
+This tool is built for educational and personal use only.
 
----
+Please use it responsibly. Downloading copyrighted material without permission may violate YouTube’s Terms of Service.
 
-## Disclaimer
+The developer does not support or encourage piracy and is not responsible for how this tool is used.
 
-This tool is meant only for personal and educational use.  
-It is intended for downloading copyright-free content.
+## 👨‍💻 Author
 
-I do **not support** or **encourage** the downloading of copyrighted material.
-
-**You are fully responsible** for how you use this tool.
-
----
-
-## Author
-
-Utkarsh  
+Utkarsh
 Learning Python and building real-world projects.
