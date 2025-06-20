@@ -27,19 +27,27 @@ A simple Python tool that allows you to download YouTube videos as MP3 audio fil
 
 2. **Install required packages:**
 
+   ```bash
    pip install -r requirements.txt
+
+   ```
 
 3. **Set up FFmpeg:**
 
-   Download FFmpeg from: https://www.gyan.dev/ffmpeg
-   Extract it and note the path to ffmpeg.exe
-   Set an environment variable in the terminal:
+   **Download FFmpeg from: https://www.gyan.dev/ffmpeg**
+   **Extract it and note the path to ffmpeg.exe**
+   **Set an environment variable in the terminal:**
 
+   ```bash
    set FFMPEG_PATH=C:\Path\To\ffmpeg.exe
+
+   ```
 
 4. **Run the application:**
 
+   ```bash
    python main.py
+   ```
 
 ## ⚠️ Disclaimer
 
@@ -51,5 +59,5 @@ The developer does not support or encourage piracy and is not responsible for ho
 
 ## 👨‍💻 Author
 
-Utkarsh
+**Utkarsh Goel**
 Learning Python and building real-world projects.
